@@ -1,0 +1,7 @@
+# Статический анализ Luau: затенение, недостижимый код, случайные глобальные.
+std = "roblox"
+
+[rules]
+empty_if = "allow"
+shadowing = "warn"
+unused_variable = "warn"

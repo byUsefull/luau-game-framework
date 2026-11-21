@@ -1,0 +1,7 @@
+# Тулчейн кита. Установи Rokit (https://github.com/rojo-rbx/rokit), затем в этой папке: rokit install
+# Версия Rojo обязана совпадать с версией плагина Rojo в Studio.
+[tools]
+rojo = "rojo-rbx/rojo@7.7.0"
+stylua = "JohnnyMorganz/StyLua@2.5.2"
+selene = "Kampfkarren/selene@0.31.0"
+lune = "lune-org/lune@0.10.5"

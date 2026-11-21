@@ -1,0 +1,33 @@
+{
+  "name": "luau-game-framework",
+  "globIgnorePaths": ["**/*.spec.luau", "**/.gitkeep"],
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Shared": { "$path": "src/shared" },
+      "Client": { "$path": "src/client" }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "Server": { "$path": "src/server" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "ServerMain": { "$path": "src/boot/ServerMain.server.luau" }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "ClientMain": { "$path": "src/boot/ClientMain.client.luau" }
+      }
+    }
+  }
+}
